@@ -1,0 +1,480 @@
+@font-face{
+    font-family: Comfortaa-Light;
+    src: url(./fonts/Comfortaa-Light.ttf);
+}
+@font-face{
+    font-family: Comfortaa-Bold;
+    src: url(./fonts/Comfortaa-Bold.ttf);
+}
+@font-face{
+    font-family: Comfortaa-Regular;
+    src: url(./fonts/Comfortaa-Regular.ttf);
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: auto;
+}
+header{
+    background: url(./background/bg-header-desktop.png) center 100% no-repeat;
+.up-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+}
+.part-up{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    margin-bottom: -80px;
+}
+.part-up-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 150px;
+    .title-up{
+        font-size: 3.5rem;
+        font-family: "Comfortaa-Bold";
+        color: hsl(210, 10%, 33%);
+        margin-bottom: 10px;
+    }
+    .par-up{
+        max-width: 650px;
+        font-size: 1.8rem;
+        font-family: "Comfortaa-Light";
+        text-align: center;
+        color: hsl(201, 11%, 66%);
+        margin-bottom: 50px;
+        line-height: 2.5rem;   
+    }
+    button{
+        color: white;
+        font-family: "Comfortaa-Regular";
+        font-size: 1.3rem;
+        padding: 1.2rem 1rem;
+        border-radius: 30px;
+        min-width: 200px;
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    }
+    .button-ios{
+        background: hsl(171, 66%, 44%);
+    }
+    .button-mac{
+        background: hsl(233, 100%, 69%);
+    }
+}
+.part-up-3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    .title-up-2{
+        font-size: 3.5rem;
+        font-family: "Comfortaa-Bold";
+        color: hsl(210, 10%, 33%);
+        margin-bottom: 10px;
+    }
+    .par-up-2{
+        max-width: 650px;
+        font-size: 1.8rem;
+        font-family: "Comfortaa-Light";
+        text-align: center;
+        color: hsl(201, 11%, 66%);
+        margin-bottom: 30px;
+        line-height: 2.5rem;
+    }
+}
+.part-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    img{
+        max-width: 580px;
+        height: auto;
+        margin-right: 70px;
+    }
+    aside{
+        display: flex;
+        flex-direction: column;
+    }
+    .title-aside{
+        font-size: 2.5rem;
+        font-family: "Comfortaa-Bold";
+        color: hsl(210, 10%, 33%);
+        margin-bottom: 10px;
+    }
+    .par-aside{
+        max-width: 400px;
+        font-size: 1.5rem;
+        font-family: "Comfortaa-Light";
+        color: hsl(201, 11%, 66%);
+        margin-bottom: 50px;
+    }
+    .as-quick{
+        margin-bottom: -20px;
+        margin-top: -20px;
+    }
+    .as-icloud{
+        margin-bottom: -20px;
+        margin-top: -20px;
+    }
+    .as-complete{
+        margin-bottom: -20px;
+        margin-top: -20px;
+    }
+}
+.part-3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .title-part-3{
+        font-size: 3.5rem;
+        font-family: "Comfortaa-Bold";
+        color: hsl(210, 10%, 33%);
+        margin-bottom: 10px;
+    }
+    .par-part-3{
+        max-width: 650px;
+        font-size: 1.8rem;
+        font-family: "Comfortaa-Light";
+        text-align: center;
+        color: hsl(201, 11%, 66%);
+        margin-bottom: 50px;
+        line-height: 2.5rem;
+    }
+}
+.part-4{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    img{
+        max-width: 750px;
+        height: auto;
+    }
+}
+.part-sup{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .title-part-sup{
+        font-size: 3.5rem;
+        font-family: "Comfortaa-Bold";
+        color: hsl(210, 10%, 33%);
+        margin-bottom: 10px;
+    }
+    .par-part-sup{
+        max-width: 650px;
+        font-size: 1.8rem;
+        font-family: "Comfortaa-Light";
+        text-align: center;
+        color: hsl(201, 11%, 66%);
+        margin-bottom: 40px;
+        line-height: 2.5rem;
+    }
+}
+.part-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 125px;
+    .list{
+        max-width: 350px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .title-list{
+        font-size: 2rem;
+        font-family: "Comfortaa-Bold";
+        color: hsl(210, 10%, 33%);
+        margin-bottom: 10px;
+    }
+    .par-list{
+        font-size: 1.5rem;
+        font-family: "Comfortaa-Light";
+        color: hsl(201, 11%, 66%);
+    }
+}
+.part-6{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    img{
+        max-width: 150px;
+        height: auto;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+.part-7{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+    .title-part-7{
+        font-size: 3.5rem;
+        font-family: "Comfortaa-Bold";
+        color: hsl(210, 10%, 33%);
+        margin-bottom: 10px;
+    }
+    .par-part-7{
+        max-width: 650px;
+        font-size: 1.8rem;
+        font-family: "Comfortaa-Light";
+        text-align: center;
+        color: hsl(201, 11%, 66%);
+        margin-bottom: 40px;
+        line-height: 2.5rem;
+    }
+    .part-sup{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+    .title-part-sup{
+        font-size: 3.5rem;
+        font-family: "Comfortaa-Bold";
+        color: hsl(210, 10%, 33%);
+        margin-bottom: 10px;
+    }
+    .par-part-sup{
+        max-width: 650px;
+        font-size: 1.8rem;
+        font-family: "Comfortaa-Light";
+        text-align: center;
+        color: hsl(201, 11%, 66%);
+        margin-bottom: 40px;
+        line-height: 2.5rem;
+    }
+    button{
+        color: white;
+        font-family: "Comfortaa-Regular";
+        font-size: 1.3rem;
+        padding: 1.2rem 1rem;
+        border-radius: 30px;
+        min-width: 200px;
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    }
+    .button-ios{
+        background: hsl(171, 66%, 44%);
+    }
+    .button-mac{
+        background: hsl(233, 100%, 69%);
+    }
+}
+footer{
+    background: hsl(189, 33%, 96%);
+    padding: 40px 30px;
+}
+.part-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .logo-footer{
+        max-width: 50px;
+        height: auto;
+        margin-right: -50px;
+    }
+    .part-list-footer{
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        font-family: "Comfortaa-Regular" ;
+        line-height: 4rem;
+        margin-left: -100px;
+    }
+    .list-footer1{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-right: 50px;
+
+    }
+    .list-footer2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .list-footer3{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    a{
+        text-decoration: none;
+        color: hsl(203, 13%, 27%);
+    }
+    .part-social{
+        img{
+            margin-right: 15px;
+            margin-left: 15px;
+        }
+    }
+}
+.par-attribution2{
+    position: absolute;
+    margin-top: -15px;
+}
+@media (min-width:620px) and (max-width:1154px){
+    .part-footer{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .logo-footer{
+        margin-left: -20px;
+        margin-right: 50px;
+    }
+    .part-list-footer{
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+    }
+    .list-footer1{
+        padding-left: 100px;
+    }
+}
+
+@media (max-width:620px){
+    .part-up-2{
+        flex-wrap: wrap;
+        padding-left: 30px;
+        padding-right: 30px;
+        .title-up{
+            text-align: center;
+            font-size: 3rem;
+        }
+        .button-up{
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            flex-wrap: wrap;
+        }
+        .button-ios{
+            margin: 10px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .button-mac{
+            margin: 10px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+    }
+    .part-up-3{
+        padding-left: 30px;
+        padding-right: 30px;
+        .title-up-2{
+            text-align: center;
+            font-size: 3rem;
+        }
+    }
+    .part-2{
+        flex-wrap: wrap;
+        text-align: center;
+        img{
+            max-width: 300px;
+            align-self: center;
+            margin: 0px;
+        }
+        aside{
+            margin-top: 50px;
+        }
+    }
+    .part-3{
+        padding-left: 30px;
+        padding-right: 30px;
+        .title-part-3{
+            text-align: center;
+            font-size: 3rem;
+        }
+    }
+    .part-4{
+        padding-right: 30px;
+        padding-left:30px;
+    }
+    .part-sup{
+        padding-right: 30px;
+        padding-left:30px;
+        .title-part-sup{
+            text-align: center;
+            font-size: 3rem;
+        }
+    }
+    .part-5{
+        flex-wrap: wrap;
+        .list{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+    .part-6{
+        flex-wrap: wrap;
+        img{
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    }
+    .part-7{
+        padding-right: 30px;
+        padding-left:30px;
+        .title-part-7{
+            text-align: center;
+            font-size: 3rem;
+        }
+        .button-up{
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            flex-wrap: wrap;
+        }
+        .button-ios{
+            margin: 10px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .button-mac{
+            margin: 10px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+    }
+    .part-footer{
+        flex-wrap: wrap;
+        flex-direction: column;
+        .logo-footer{
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
+        }
+        .part-list-footer{
+            line-height: 6rem;
+            text-align: center;
+            flex-wrap: wrap;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
+        }
+    }
+}
